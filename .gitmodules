@@ -1,0 +1,3 @@
+[submodule "_plugins/jekyll-mapping"]
+	path = _plugins/jekyll-mapping
+	url = git@github.com:matthewowen/jekyll-mapping.git

@@ -168,3 +168,11 @@ protocols:
     os_repo: "https://github.com/crzysdrs/travelblog"
     os_rcs_type: "git"
     os_src: "git@github.com:crzysdrs/travelblog"
+
+mapping:
+    provider: google_js
+    api_key: AIzaSyDFvHevr7rnEDhhhU6A7f__rmuh7mlcBEY
+    zoom: 10
+    dimensions:
+        width: 600
+        height: 400
