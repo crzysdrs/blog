@@ -5,7 +5,7 @@
     <h3 class="footer-heading">{{ site.title }}</h3>
 
     <div class="site-navigation">
-      
+
       <p><strong>Site Map</strong></p>
       <ul class="pages">
         {% for page in site.pages %}
@@ -54,6 +54,7 @@
 <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.5/highlight.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/js/lightbox.min.js"></script>
+<script src="https://cdn.jsdelivr.net/fancybox/2.1.5/jquery.fancybox.pack.js"></script>
 <script>
 
 $(document).ready(function() {
@@ -73,7 +74,12 @@ $(document).ready(function() {
     });
   });
 
-
+$(".fancybox").fancybox({
+ onComplete: function(links, index) {
+    //leave this at the bottom
+    $.fancybox.reposition(true);
+  }
+  });
 });
 
 </script>

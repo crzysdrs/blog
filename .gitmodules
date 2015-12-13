@@ -1,3 +1,9 @@
 [submodule "_plugins/jekyll-mapping"]
 	path = _plugins/jekyll-mapping
 	url = git@github.com:matthewowen/jekyll-mapping.git
+[submodule "_plugins/jekyll-thumbnailer"]
+	path = _plugins/jekyll-thumbnailer
+	url = git@github.com:kevin1/jekyll-thumbnailer
+[submodule "_plugins/2963361"]
+	path = _plugins/2963361
+	url = git@gist.github.com:2963361.git

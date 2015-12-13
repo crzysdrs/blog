@@ -10,13 +10,13 @@ exclude:
 title: Mitch's Travels
 subtitle: "There and back again."
 email: mitch.souders@gmail.com
-name: Mitchell
+name: Mitch Souders
 description: >
   A basic log of what Mitch has done.
 # Base URL of site (i.e. /blog). It should always start with a slash,
 # and never end with a slash. Set it to a blank value if hosting at the
 # root of your server.
-baseurl: "/centrarium" # the subpath of your site, e.g. /blog/
+baseurl: "/blog/" # the subpath of your site, e.g. /blog/
 url: "http://crzysdrs.sytes.net" # the base hostname & protocol for your site
 cover: "/assets/header_image.jpg"
 logo: "/assets/logo.png"
@@ -37,7 +37,7 @@ jekyll-archives:
     tag: '/tag/:name/'
 
 # Disqus comments
-disqus_shortname: mitchsouders
+disqus_shortname: crzysdrs
 
 # Google analytics
 # ga_tracking_id: "UA-XXXX-1"
@@ -172,7 +172,7 @@ protocols:
 mapping:
     provider: google_js
     api_key: AIzaSyDFvHevr7rnEDhhhU6A7f__rmuh7mlcBEY
-    zoom: 10
+    zoom: 1
     dimensions:
         width: 600
         height: 400
