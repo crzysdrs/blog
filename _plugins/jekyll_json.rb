@@ -1,0 +1,1 @@
+jekyll-mapping/_plugins/jekyll_json.rb
